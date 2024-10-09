@@ -1,0 +1,31 @@
+[
+    {
+        "id": 0,
+        "image": "https://i.pcmag.com/imagery/roundups/01hiB08j7yaJGJmPl2YhRRH-59..v1713199550.jpg",
+        "brand": "MSI",
+        "model": "Titan 18 HX",
+        "price": 409990
+    },
+    {
+        "id": 1,
+        "image": "https://i.pcmag.com/imagery/reviews/069plD1rYr9FV8R4EbQuzJQ-1.fit_lim.size_1050x591.v1716917359.jpg",
+        "brand": "Lenovo",
+        "model": "Legion Pro 7i Gen 9 16",
+        "price": 126590
+    },
+    {
+        "id": 2,
+        "image": "https://cdn.mos.cms.futurecdn.net/3VpzFCHbyJ7i4JdA3ZdD6V-1200-80.jpg",
+        "brand": "Asus",
+        "model": " ROG Zephyrus G14",
+        "price": 151700
+    },
+    {
+        "id": 3,
+        "image": "https://i.pcmag.com/imagery/reviews/06igAGnlAsvqgDTqS9lf5Kw-1.fit_lpad.size_625x365.v1721150421.jpg",
+        "brand": "Dell",
+        "model": "Precision 5690",
+        "price": 317167
+    }
+
+]
