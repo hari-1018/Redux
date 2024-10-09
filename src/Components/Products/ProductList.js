@@ -27,15 +27,21 @@ const ProductList = () => {
             </button>
           </div>
 
-          <div className='quantity'>
-            <button className='cart-button' onClick={() => dispatch(decrementQuantity(product.id))}>
-              -
-            </button>
-            <div className='count-button'>{getProductQuantity(product.id)}</div>
-            <button className='cart-button' onClick={() => dispatch(incrementQuantity(product.id))}>
-              +
-            </button>
-          </div>
+          {getProductQuantity(product.id) > 0 && (
+            <div className='quantity'>
+              <button
+                className='cart-button'
+                onClick={() => dispatch(decrementQuantity(product.id))}
+                disabled={getProductQuantity(product.id) === 1}
+              >
+                -
+              </button>
+              <div className='count-button'>{getProductQuantity(product.id)}</div>
+              <button className='cart-button' onClick={() => dispatch(incrementQuantity(product.id))}>
+                +
+              </button>
+            </div>
+          )}
         </div>
       ))}
     </section>
